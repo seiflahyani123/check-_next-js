@@ -1,0 +1,192 @@
+
+  ul {
+    list-style: none;         /* Enlève les puces */
+    display: flex;            /* Affiche les items sur une ligne */
+    gap: 20px;                /* Espace entre les items */
+    padding: 0;               /* Enlève le padding par défaut */
+    margin: 20px 0;           /* Marge au dessus et en dessous */
+    background-color: #f0f0f0;/* Fond clair pour le menu */
+    border-radius: 8px;       /* Bords arrondis */
+  }
+
+  li {
+    cursor: pointer;          /* Curseur pointer */
+    padding: 8px 16px;        /* Espacement interne */
+    border-radius: 5px;       /* Bords arrondis */
+    transition: background-color 0.3s ease;
+    font-weight: 500;         /* Texte un peu plus gras */
+  }
+
+  li:hover {
+    background-color: #ddd;   /* Couleur au survol */
+  }
+
+  a {
+    text-decoration: none;    /* Supprime le soulignement */
+    color: inherit;           /* Hérite de la couleur du parent */
+  }
+
+.container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f9fafb; /* تقريبا bg-gray-50 */
+  padding: 2rem;
+}
+
+.title {
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: #111827; /* text-gray-900 */
+  text-align: center;
+}
+
+.subtitle {
+  font-size: 1.5rem;
+  color: #3b82f6; /* text-blue-500 */
+  font-weight: 500;
+}
+.users-list {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.user-card {
+  background-color: #f0f4f8;
+  padding: 1rem 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  transition: background-color 0.3s ease;
+}
+
+.user-card:hover {
+  background-color: #d9e8ff;
+}
+
+.user-name {
+  margin: 0;
+  color: #1a73e8;
+  cursor: pointer;
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+.profile-container {
+  max-width: 500px;
+  margin: 2rem auto;
+  padding: 1.5rem;
+  background-color: #fafafa;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.profile-username {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.profile-info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.profile-item {
+  font-size: 1.1rem;
+  color: #555;
+}
+
+.profile-item strong {
+  color: #1a73e8;
+}
+.contact-form-container {
+  max-width: 400px;
+  margin: 2rem auto;
+  padding: 1rem;
+  background-color: #f9fafb;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  font-family: Arial, sans-serif;
+}
+
+.contact-input {
+  padding: 0.75rem 1rem;
+  border: 1.5px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+  transition: border-color 0.3s ease;
+  width: 100%;
+}
+
+.contact-input:focus {
+  outline: none;
+  border-color: #2563eb; /* bleu plus vif */
+  box-shadow: 0 0 5px #2563eb;
+}
+
+.contact-button {
+  background-color: #2563eb;
+  color: white;
+  padding: 0.75rem 1rem;
+  font-size: 1.1rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contact-button:hover {
+  background-color: #1e40af;
+}
+.messages-container {
+  max-width: 420px;
+  margin: 2rem auto;
+  padding: 1.5rem 2rem;
+  background-color: #f9fafb;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.messages-title {
+  font-size: 1.75rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  color: #222;
+  text-align: center;
+}
+
+.messages-item {
+  font-size: 1.1rem;
+  color: #444;
+  margin-bottom: 0.75rem;
+}
+
+.messages-item strong {
+  color: #2563eb;
+}
+
+.messages-no-message {
+  max-width: 420px;
+  margin: 3rem auto;
+  padding: 1rem 2rem;
+  text-align: center;
+  font-size: 1.25rem;
+  color: #888;
+  font-style: italic;
+  font-family: Arial, sans-serif;
+}
+
+
